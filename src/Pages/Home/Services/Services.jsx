@@ -11,7 +11,7 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <div className="space-y-5">
+        <div className="glass space-y-5">
             <div className="text-center">
                 <h3 className="text-4xl font-bold text-orange-600">Services</h3>
                 <h3 className='text-3xl'>Our Services Area</h3>
@@ -26,7 +26,7 @@ const Services = () => {
                     ></ServicesCard>)
                 }
             </div>
-            <div className="ml-[50%]">
+            <div className="ml-[43%]">
                 <button className=" btn btn-active btn-secondary">More Services</button>
             </div>
         </div>

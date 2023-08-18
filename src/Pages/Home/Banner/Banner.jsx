@@ -11,8 +11,8 @@ const Banner = () => {
             <div id="slide1" className="carousel-item relative w-full">
                 <img src={img1} className="w-full rounded-2xl" />
                 <div className="absolute rounded-2xl flex transform h-full w-full bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-                    <div className='text-white space-y-7 pl-10 mt-24 w-1/3'>
-                        <h1 className='text-6xl font-bold'>Affordable Price For Car Servicing </h1>
+                    <div className='text-white space-y-7 pl-10 lg:mt-20 lg:w-1/3 sm:text-sm mt-24 w-1/2'>
+                        <h1 className='text-5xl lg:text-6xl font-bold'>Affordable Price For Car Servicing </h1>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <button className="btn btn-warning mr-10">Discover More</button>
                         <button className="btn btn-outline btn-accent">Latest Project</button>
@@ -26,8 +26,8 @@ const Banner = () => {
             <div id="slide2" className="carousel-item relative w-full">
                 <img src={img2} className="w-full rounded-2xl" />
                 <div className="absolute rounded-2xl flex transform h-full w-full bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-                    <div className='text-white space-y-7 pl-10 mt-28 w-1/3'>
-                        <h1 className='text-6xl font-bold'>Affordable Price For Car Servicing </h1>
+                    <div className='text-white space-y-7 pl-10 lg:mt-20 lg:w-1/3 sm:text-sm mt-24 w-1/2'>
+                        <h1 className='text-5xl lg:text-6xl font-bold'>Affordable Price For Car Servicing </h1>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <button className="btn btn-warning mr-10">Discover More</button>
                         <button className="btn btn-outline btn-accent">Latest Project</button>
@@ -41,8 +41,8 @@ const Banner = () => {
             <div id="slide3" className="carousel-item relative w-full">
                 <img src={img3} className="w-full rounded-2xl" />
                 <div className="absolute rounded-2xl flex transform h-full w-full bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-                    <div className='text-white space-y-7 pl-10 mt-28 w-1/3'>
-                        <h1 className='text-6xl font-bold'>Affordable Price For Car Servicing </h1>
+                    <div className='text-white space-y-7 pl-10 lg:mt-20 lg:w-1/3 sm:text-sm mt-24 w-1/2'>
+                        <h1 className='text-5xl lg:text-6xl font-bold'>Affordable Price For Car Servicing </h1>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <button className="btn btn-warning mr-10">Discover More</button>
                         <button className="btn btn-outline btn-accent">Latest Project</button>
@@ -56,8 +56,8 @@ const Banner = () => {
             <div id="slide4" className="carousel-item relative w-full">
                 <img src={img4} className="w-full rounded-2xl" />
                 <div className="absolute rounded-2xl flex transform h-full w-full bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-                    <div className='text-white space-y-7 pl-10 mt-28 w-1/3'>
-                        <h1 className='text-6xl font-bold'>Affordable Price For Car Servicing </h1>
+                    <div className='text-white space-y-7 pl-10 lg:mt-20 lg:w-1/3 sm:text-sm mt-24 w-1/2'>
+                        <h1 className='text-5xl lg:text-6xl font-bold'>Affordable Price For Car Servicing </h1>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <button className="btn btn-warning mr-10">Discover More</button>
                         <button className="btn btn-outline btn-accent">Latest Project</button>
@@ -71,8 +71,8 @@ const Banner = () => {
             <div id="slide5" className="carousel-item relative w-full">
                 <img src={img5} className="w-full rounded-2xl" />
                 <div className="absolute rounded-2xl flex transform h-full w-full bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-                    <div className='text-white space-y-7 pl-10 mt-28 w-1/3'>
-                        <h1 className='text-6xl font-bold'>Affordable Price For Car Servicing </h1>
+                    <div className='text-white space-y-7 pl-10 lg:mt-20 lg:w-1/3 sm:text-sm mt-24 w-1/2'>
+                        <h1 className='text-5xl lg:text-6xl font-bold'>Affordable Price For Car Servicing </h1>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <button className="btn btn-warning mr-10">Discover More</button>
                         <button className="btn btn-outline btn-accent">Latest Project</button>
@@ -86,8 +86,8 @@ const Banner = () => {
             <div id="slide6" className="carousel-item relative w-full">
                 <img src={img6} className="w-full rounded-2xl" />
                 <div className="absolute rounded-2xl flex transform h-full w-full bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
-                    <div className='text-white space-y-7 pl-10 mt-28 w-1/3'>
-                        <h1 className='text-6xl font-bold'>Affordable Price For Car Servicing </h1>
+                    <div className='text-white space-y-7 pl-10 lg:mt-20 lg:w-1/3 sm:text-sm mt-24 w-1/2'>
+                        <h1 className='text-5xl lg:text-6xl font-bold'>Affordable Price For Car Servicing </h1>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <button className="btn btn-warning mr-10">Discover More</button>
                         <button className="btn btn-outline btn-accent">Latest Project</button>
