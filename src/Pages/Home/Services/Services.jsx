@@ -11,8 +11,8 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <div className="glass space-y-5">
-            <div className="text-center">
+        <div className="card glass space-y-5 mt-8">
+            <div className="text-center mt-4">
                 <h3 className="text-4xl font-bold text-orange-600">Services</h3>
                 <h3 className='text-3xl'>Our Services Area</h3>
                 <p>the majority have suffered alteration in some form, by injected humour, or randomised <br></br> words which do not look even slightly believable. </p>
@@ -27,7 +27,7 @@ const Services = () => {
                 }
             </div>
             <div className="ml-[43%]">
-                <button className=" btn btn-active btn-secondary">More Services</button>
+                <button className=" btn btn-outline btn-warning">More Services</button>
             </div>
         </div>
     );

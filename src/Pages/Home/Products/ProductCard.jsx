@@ -12,6 +12,7 @@ const ProductCard = ({ product }) => {
                     <button className="btn btn-outline btn-success">Buy Now</button>
                 </div>
             </div>
+
         </div>
     );
 };
