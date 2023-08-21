@@ -32,11 +32,11 @@ const
                                     </label>
                                 </div>
                                 <div className="form-control mt-6">
-                                    <input className="btn bg-[#FF3811] text-[#FFFFFF]" type='submit' value='Login'></input>
+                                    <input className="btn bg-[#FF3811] text-[#FFFFFF]" type='submit' value='SIGN UP'></input>
                                 </div>
                             </div>
                         </form>
-                        <p className='my-2 text-center text-sm'>New to Car Doctors? <Link className='text-orange-600 font-bold' to='/Signup'>Sign up</Link></p>
+                        <p className='my-8 text-center text-sm'>New to Car Doctors? <Link className='text-orange-600 font-bold' to='/Signup'>Sign up</Link></p>
                     </div>
                 </div>
             </div>
