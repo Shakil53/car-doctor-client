@@ -1,7 +1,17 @@
 import { Link } from "react-router-dom";
 import logo from '../../../assets/logo.svg'
+import { useContext } from "react";
+import { AuthContex } from "../../../Contex/AuthProvider";
+import toast from "react-hot-toast";
 
 const NavBar = () => {
+    const { user, logOut } = useContext(AuthContex)
+
+    const handleSignOut = () => {
+        logOut()
+            .then(() => { toast.error('logout successfully') })
+            .catch(error => console.log(error))
+    }
 
     const navItems = <>
         <li><Link to="/">Home</Link></li>
@@ -9,8 +19,11 @@ const NavBar = () => {
         <li><Link to="services">Services</Link></li>
         <li><Link to="blog">Blog</Link></li>
         <li><Link to="contact">Contact</Link></li>
-        <li><Link to="login">Login</Link></li>
-        <li><Link to="signup">SignUp</Link></li>
+        {
+            user?.email ? <li><Link><button onClick={handleSignOut}>LogOut</button></Link></li>
+                : <li><Link to={'/login'}><button>Login</button></Link></li>
+        }
+
     </>
     return (
         <div className="navbar bg-base-100 h-28 mb-4">

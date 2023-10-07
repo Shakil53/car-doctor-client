@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import productBg from '../../../assets/images/services/3.jpg'
 import ProductCard from "./ProductCard";
 
 
