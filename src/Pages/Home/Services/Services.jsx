@@ -6,9 +6,9 @@ const Services = () => {
     const [services, setServices] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://car-doctor-server-psi-beryl.vercel.app/services')
             .then(res => res.json())
-            .then(data => setServices(data))
+            .then(data => setServices(data));
     }, [])
     return (
         <div className="card glass space-y-5 mt-8">
